@@ -1,0 +1,23 @@
+/*
+    -- METODOS --
+    GET    => Buscar uma informação
+    POST   => Incluir uma informação
+    PUT    => Alterar uma informação
+    DELETE => Remover um dado
+    PATCH  => Alterar uma informação especifica
+
+    // Request  => Informação recebida do Servidor
+    // Response => Informação retornada pelo Servidor
+*/
+
+/*
+    -- TIPOS DE PARAMETROS --
+    Routes Params => http://localhost:3000/produtos/78347583458345
+    Query Params  => http://localhost:3000/produtos?name="Stefan"&age="25"
+    _____________
+    Body Params => {
+        "name": "Stefan",
+        "age": "25"
+    }
+*/
+
