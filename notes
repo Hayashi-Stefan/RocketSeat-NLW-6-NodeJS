@@ -1,4 +1,12 @@
 /*
+    -- COMANDOS --
+
+    # MIGRATION
+    Criação..: yarn typeorm migration:create -n "Nome"
+    Rodar....: yarn typeorm migration:run
+*/
+
+/*
     -- METODOS --
     GET    => Buscar uma informação
     POST   => Incluir uma informação
@@ -21,3 +29,12 @@
     }
 */
 
+/*
+    -- FLUXO --
+    Server -> Router -> Controller -> Service
+*/
+
+/* 
+    -- CRIAÇÃO --
+    Migration -> Entity -> Repositories -> Service -> ?(Interface) -> Controller 
+*/
