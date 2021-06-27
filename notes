@@ -38,3 +38,52 @@
     -- CRIAÇÃO --
     Migration -> Entity -> Repositories -> Service -> ?(Interface) -> Controller 
 */
+
+
+/* 
+    -- INSTALAÇÃO DE DEPENDENCIAS --
+
+    # AULA - 01
+
+    # AULA - 02
+
+    # AULA - 03
+
+    # AULA - 04
+        - yarn add jsonwebtoken
+        - yarn add @types jsonwebtoken -D
+
+        - yarn add bcryptjs
+        - yarn add @types/bcryptjs -D
+    # AULA - 05
+*/
+
+
+/* 
+    -- COMANDOS --
+
+    # AULA - 01
+
+    # AULA - 02
+
+    # AULA - 03
+
+    # AULA - 04
+        // JWT no Projeto
+        - yarn add jsonwebtoken
+        - yarn add @types jsonwebtoken -D
+
+        // Migration: Add Coluna de Senha/Password
+        - yarn typeorm migration:create -n AlterUserAddPassword
+
+        // Executa a Migration
+        - yarn typeorm migration:run
+
+        // Biblioteca para Criptografar
+        - yarn add bcryptjs
+        - yarn add @types/bcryptjs -D
+
+        // MD5 Generator p/ criar HASH
+
+    # AULA - 05
+*/
